@@ -8,7 +8,8 @@ networks:
 services:
     nginx:
         image: linuxserver/letsencrypt
-        container_name: webserver
+        container_name: web
+        restart: unless-stopped
         networks:
             digisignnet:
                  ipv4_address: 172.18.0.2
@@ -36,6 +37,7 @@ services:
     db:
         image: postgres:latest
         container_name: db
+        restart: unless-stopped
         networks:
             digisignnet:
                  ipv4_address: 172.18.0.3
@@ -61,6 +63,7 @@ services:
     digiapi:
         image: digisign/digiapi:1.0
         container_name: digiapi
+        restart: unless-stopped
         networks:
             digisignnet:
                  ipv4_address: 172.18.0.5
@@ -90,6 +93,7 @@ services:
     digiserver:
         image: digisign/digiserver:1.0
         container_name: digiserver
+        restart: unless-stopped
         networks:
             digisignnet:
                  ipv4_address: 172.18.0.6

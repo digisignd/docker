@@ -1169,3 +1169,50 @@ cat default
 ls -l 
 vi default
 sudo ls -l
+cd config
+cd nginx/
+ls -l
+cd site-confs/
+ls -l
+cd ..
+ls -l
+sudo apt install git
+git --version
+git config --global user.name "DigiSign"
+git config --global user.email "osanchez@sitecpro.com"
+pwd
+ls -l
+git init
+git add .
+git commit -m "Archivos para Docker Compose de Digisign"
+git remote add origin https://github.com/digisignd/docker.git
+git pull origin master
+git push origin master
+sudo ls -l
+git push origin master
+git pull origin master
+git push origin master
+git pull origin master
+git pull
+git pull master
+git pull origin master
+git fetch
+git checkout origin/master docker-compose.yml
+ls -l
+vi docker-compose.yml 
+vi .gitignore
+ls 
+ls -l
+ls -la
+git status
+git pull
+git pull origin master
+git commit
+git pull origin master
+git pull origin master -force
+git pull
+git fetch --all
+ls -l
+ls -la
+git pull origin master
+git push origin master

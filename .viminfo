@@ -14,10 +14,10 @@
 ~MSle0~/error
 
 # Command Line History (newest to oldest):
-:q!
-|2,0,1552432341,,"q!"
 :x
-|2,0,1552431743,,"x"
+|2,0,1552438029,,"x"
+:q!
+|2,0,1552437838,,"q!"
 :x!
 |2,0,1552065364,,"x!"
 :q
@@ -104,36 +104,212 @@
 |3,1,36,0,1,0,1552431738,"x"
 
 # File marks:
-'0  51  8  ~/default
-|4,48,51,8,1552434182,"~/default"
-'1  98  12  ~/docker-compose.yml
-|4,49,98,12,1552432341,"~/docker-compose.yml"
-'2  80  18  ~/docker-compose.yml
-|4,50,80,18,1552431753,"~/docker-compose.yml"
-'3  80  18  ~/docker-compose.yml
-|4,51,80,18,1552431753,"~/docker-compose.yml"
-'4  80  18  ~/docker-compose.yml
-|4,52,80,18,1552431743,"~/docker-compose.yml"
-'5  80  18  ~/docker-compose.yml
-|4,53,80,18,1552431743,"~/docker-compose.yml"
-'6  94  0  ~/docker-compose.yml
-|4,54,94,0,1552422054,"~/docker-compose.yml"
-'7  94  0  ~/docker-compose.yml
-|4,55,94,0,1552422054,"~/docker-compose.yml"
-'8  94  0  ~/docker-compose.yml
-|4,56,94,0,1552422054,"~/docker-compose.yml"
-'9  94  0  ~/docker-compose.yml
-|4,57,94,0,1552422054,"~/docker-compose.yml"
+'0  2  10  ~/.gitignore
+|4,48,2,10,1552438029,"~/.gitignore"
+'1  2  10  ~/.gitignore
+|4,49,2,10,1552437838,"~/.gitignore"
+'2  2  10  ~/.gitignore
+|4,50,2,10,1552437305,"~/.gitignore"
+'3  2  10  ~/.gitignore
+|4,51,2,10,1552437305,"~/.gitignore"
+'4  1  0  ~/docker-compose.yml
+|4,52,1,0,1552437147,"~/docker-compose.yml"
+'5  51  8  ~/default
+|4,53,51,8,1552434182,"~/default"
+'6  98  12  ~/docker-compose.yml
+|4,54,98,12,1552432341,"~/docker-compose.yml"
+'7  98  12  ~/docker-compose.yml
+|4,55,98,12,1552432341,"~/docker-compose.yml"
+'8  80  18  ~/docker-compose.yml
+|4,56,80,18,1552431753,"~/docker-compose.yml"
+'9  80  18  ~/docker-compose.yml
+|4,57,80,18,1552431753,"~/docker-compose.yml"
 
 # Jumplist (newest first):
+-'  2  10  ~/.gitignore
+|4,39,2,10,1552438029,"~/.gitignore"
+-'  2  10  ~/.gitignore
+|4,39,2,10,1552437838,"~/.gitignore"
+-'  2  10  ~/.gitignore
+|4,39,2,10,1552437305,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1552437292,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1552437292,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1552437292,"~/.gitignore"
+-'  1  0  ~/docker-compose.yml
+|4,39,1,0,1552437147,"~/docker-compose.yml"
+-'  1  0  ~/docker-compose.yml
+|4,39,1,0,1552437147,"~/docker-compose.yml"
+-'  1  0  ~/docker-compose.yml
+|4,39,1,0,1552437147,"~/docker-compose.yml"
+-'  1  0  ~/docker-compose.yml
+|4,39,1,0,1552437147,"~/docker-compose.yml"
+-'  1  0  ~/docker-compose.yml
+|4,39,1,0,1552437147,"~/docker-compose.yml"
+-'  1  0  ~/docker-compose.yml
+|4,39,1,0,1552437147,"~/docker-compose.yml"
+-'  1  0  ~/docker-compose.yml
+|4,39,1,0,1552437147,"~/docker-compose.yml"
+-'  1  0  ~/docker-compose.yml
+|4,39,1,0,1552437147,"~/docker-compose.yml"
+-'  98  12  ~/docker-compose.yml
+|4,39,98,12,1552437138,"~/docker-compose.yml"
+-'  98  12  ~/docker-compose.yml
+|4,39,98,12,1552437138,"~/docker-compose.yml"
+-'  98  12  ~/docker-compose.yml
+|4,39,98,12,1552437138,"~/docker-compose.yml"
+-'  98  12  ~/docker-compose.yml
+|4,39,98,12,1552437138,"~/docker-compose.yml"
+-'  98  12  ~/docker-compose.yml
+|4,39,98,12,1552437138,"~/docker-compose.yml"
+-'  98  12  ~/docker-compose.yml
+|4,39,98,12,1552437138,"~/docker-compose.yml"
+-'  98  12  ~/docker-compose.yml
+|4,39,98,12,1552437138,"~/docker-compose.yml"
+-'  98  12  ~/docker-compose.yml
+|4,39,98,12,1552437138,"~/docker-compose.yml"
 -'  51  8  ~/default
 |4,39,51,8,1552434182,"~/default"
+-'  51  8  ~/default
+|4,39,51,8,1552434182,"~/default"
+-'  51  8  ~/default
+|4,39,51,8,1552434182,"~/default"
+-'  51  8  ~/default
+|4,39,51,8,1552434182,"~/default"
+-'  51  8  ~/default
+|4,39,51,8,1552434182,"~/default"
+-'  51  8  ~/default
+|4,39,51,8,1552434182,"~/default"
+-'  51  8  ~/default
+|4,39,51,8,1552434182,"~/default"
+-'  51  8  ~/default
+|4,39,51,8,1552434182,"~/default"
+-'  51  8  ~/default
+|4,39,51,8,1552434182,"~/default"
+-'  51  8  ~/default
+|4,39,51,8,1552434182,"~/default"
+-'  51  8  ~/default
+|4,39,51,8,1552434182,"~/default"
+-'  51  8  ~/default
+|4,39,51,8,1552434182,"~/default"
+-'  51  8  ~/default
+|4,39,51,8,1552434182,"~/default"
+-'  51  8  ~/default
+|4,39,51,8,1552434182,"~/default"
+-'  51  8  ~/default
+|4,39,51,8,1552434182,"~/default"
+-'  51  8  ~/default
+|4,39,51,8,1552434182,"~/default"
+-'  15  0  ~/default
+|4,39,15,0,1552434174,"~/default"
+-'  15  0  ~/default
+|4,39,15,0,1552434174,"~/default"
+-'  15  0  ~/default
+|4,39,15,0,1552434174,"~/default"
+-'  15  0  ~/default
+|4,39,15,0,1552434174,"~/default"
+-'  15  0  ~/default
+|4,39,15,0,1552434174,"~/default"
+-'  15  0  ~/default
+|4,39,15,0,1552434174,"~/default"
+-'  15  0  ~/default
+|4,39,15,0,1552434174,"~/default"
+-'  15  0  ~/default
+|4,39,15,0,1552434174,"~/default"
+-'  15  0  ~/default
+|4,39,15,0,1552434174,"~/default"
+-'  15  0  ~/default
+|4,39,15,0,1552434174,"~/default"
+-'  15  0  ~/default
+|4,39,15,0,1552434174,"~/default"
+-'  15  0  ~/default
+|4,39,15,0,1552434174,"~/default"
+-'  15  0  ~/default
+|4,39,15,0,1552434174,"~/default"
+-'  15  0  ~/default
+|4,39,15,0,1552434174,"~/default"
+-'  15  0  ~/default
+|4,39,15,0,1552434174,"~/default"
 -'  15  0  ~/default
 |4,39,15,0,1552434174,"~/default"
 -'  98  12  ~/docker-compose.yml
 |4,39,98,12,1552432341,"~/docker-compose.yml"
 -'  98  12  ~/docker-compose.yml
 |4,39,98,12,1552432341,"~/docker-compose.yml"
+-'  98  12  ~/docker-compose.yml
+|4,39,98,12,1552432341,"~/docker-compose.yml"
+-'  98  12  ~/docker-compose.yml
+|4,39,98,12,1552432341,"~/docker-compose.yml"
+-'  98  12  ~/docker-compose.yml
+|4,39,98,12,1552432341,"~/docker-compose.yml"
+-'  98  12  ~/docker-compose.yml
+|4,39,98,12,1552432341,"~/docker-compose.yml"
+-'  98  12  ~/docker-compose.yml
+|4,39,98,12,1552432341,"~/docker-compose.yml"
+-'  98  12  ~/docker-compose.yml
+|4,39,98,12,1552432341,"~/docker-compose.yml"
+-'  98  12  ~/docker-compose.yml
+|4,39,98,12,1552432341,"~/docker-compose.yml"
+-'  98  12  ~/docker-compose.yml
+|4,39,98,12,1552432341,"~/docker-compose.yml"
+-'  98  12  ~/docker-compose.yml
+|4,39,98,12,1552432341,"~/docker-compose.yml"
+-'  98  12  ~/docker-compose.yml
+|4,39,98,12,1552432341,"~/docker-compose.yml"
+-'  98  12  ~/docker-compose.yml
+|4,39,98,12,1552432341,"~/docker-compose.yml"
+-'  98  12  ~/docker-compose.yml
+|4,39,98,12,1552432341,"~/docker-compose.yml"
+-'  98  12  ~/docker-compose.yml
+|4,39,98,12,1552432341,"~/docker-compose.yml"
+-'  98  12  ~/docker-compose.yml
+|4,39,98,12,1552432341,"~/docker-compose.yml"
+-'  80  18  ~/docker-compose.yml
+|4,39,80,18,1552432327,"~/docker-compose.yml"
+-'  80  18  ~/docker-compose.yml
+|4,39,80,18,1552432327,"~/docker-compose.yml"
+-'  80  18  ~/docker-compose.yml
+|4,39,80,18,1552432327,"~/docker-compose.yml"
+-'  80  18  ~/docker-compose.yml
+|4,39,80,18,1552432327,"~/docker-compose.yml"
+-'  80  18  ~/docker-compose.yml
+|4,39,80,18,1552432327,"~/docker-compose.yml"
+-'  80  18  ~/docker-compose.yml
+|4,39,80,18,1552432327,"~/docker-compose.yml"
+-'  80  18  ~/docker-compose.yml
+|4,39,80,18,1552432327,"~/docker-compose.yml"
+-'  80  18  ~/docker-compose.yml
+|4,39,80,18,1552432327,"~/docker-compose.yml"
+-'  80  18  ~/docker-compose.yml
+|4,39,80,18,1552432327,"~/docker-compose.yml"
+-'  80  18  ~/docker-compose.yml
+|4,39,80,18,1552432327,"~/docker-compose.yml"
+-'  80  18  ~/docker-compose.yml
+|4,39,80,18,1552432327,"~/docker-compose.yml"
+-'  80  18  ~/docker-compose.yml
+|4,39,80,18,1552432327,"~/docker-compose.yml"
+-'  80  18  ~/docker-compose.yml
+|4,39,80,18,1552432327,"~/docker-compose.yml"
+-'  80  18  ~/docker-compose.yml
+|4,39,80,18,1552432327,"~/docker-compose.yml"
+-'  80  18  ~/docker-compose.yml
+|4,39,80,18,1552432327,"~/docker-compose.yml"
+-'  80  18  ~/docker-compose.yml
+|4,39,80,18,1552432327,"~/docker-compose.yml"
+-'  80  18  ~/docker-compose.yml
+|4,39,80,18,1552432327,"~/docker-compose.yml"
+-'  80  18  ~/docker-compose.yml
+|4,39,80,18,1552432327,"~/docker-compose.yml"
+-'  80  18  ~/docker-compose.yml
+|4,39,80,18,1552432327,"~/docker-compose.yml"
+-'  80  18  ~/docker-compose.yml
+|4,39,80,18,1552432327,"~/docker-compose.yml"
+-'  80  18  ~/docker-compose.yml
+|4,39,80,18,1552432327,"~/docker-compose.yml"
+-'  80  18  ~/docker-compose.yml
+|4,39,80,18,1552432327,"~/docker-compose.yml"
 -'  80  18  ~/docker-compose.yml
 |4,39,80,18,1552432327,"~/docker-compose.yml"
 -'  80  18  ~/docker-compose.yml
@@ -143,212 +319,26 @@
 -'  80  18  ~/docker-compose.yml
 |4,39,80,18,1552431753,"~/docker-compose.yml"
 -'  80  18  ~/docker-compose.yml
-|4,39,80,18,1552431743,"~/docker-compose.yml"
+|4,39,80,18,1552431753,"~/docker-compose.yml"
 -'  80  18  ~/docker-compose.yml
-|4,39,80,18,1552431743,"~/docker-compose.yml"
--'  94  0  ~/docker-compose.yml
-|4,39,94,0,1552430773,"~/docker-compose.yml"
--'  94  0  ~/docker-compose.yml
-|4,39,94,0,1552430773,"~/docker-compose.yml"
--'  94  0  ~/docker-compose.yml
-|4,39,94,0,1552430773,"~/docker-compose.yml"
--'  94  0  ~/docker-compose.yml
-|4,39,94,0,1552430773,"~/docker-compose.yml"
--'  94  0  ~/docker-compose.yml
-|4,39,94,0,1552430773,"~/docker-compose.yml"
--'  94  0  ~/docker-compose.yml
-|4,39,94,0,1552430773,"~/docker-compose.yml"
--'  94  0  ~/docker-compose.yml
-|4,39,94,0,1552422054,"~/docker-compose.yml"
--'  94  0  ~/docker-compose.yml
-|4,39,94,0,1552422054,"~/docker-compose.yml"
--'  90  0  ~/docker-compose.yml
-|4,39,90,0,1552422037,"~/docker-compose.yml"
--'  90  0  ~/docker-compose.yml
-|4,39,90,0,1552422037,"~/docker-compose.yml"
--'  90  0  ~/docker-compose.yml
-|4,39,90,0,1552422037,"~/docker-compose.yml"
--'  90  0  ~/docker-compose.yml
-|4,39,90,0,1552422037,"~/docker-compose.yml"
--'  90  0  ~/docker-compose.yml
-|4,39,90,0,1552422037,"~/docker-compose.yml"
--'  90  0  ~/docker-compose.yml
-|4,39,90,0,1552422037,"~/docker-compose.yml"
--'  90  0  ~/docker-compose.yml
-|4,39,90,0,1552422037,"~/docker-compose.yml"
--'  90  0  ~/docker-compose.yml
-|4,39,90,0,1552422037,"~/docker-compose.yml"
--'  49  0  ~/docker-compose.yml
-|4,39,49,0,1552422013,"~/docker-compose.yml"
--'  49  0  ~/docker-compose.yml
-|4,39,49,0,1552422013,"~/docker-compose.yml"
--'  49  0  ~/docker-compose.yml
-|4,39,49,0,1552422013,"~/docker-compose.yml"
--'  49  0  ~/docker-compose.yml
-|4,39,49,0,1552422013,"~/docker-compose.yml"
--'  49  0  ~/docker-compose.yml
-|4,39,49,0,1552422013,"~/docker-compose.yml"
--'  49  0  ~/docker-compose.yml
-|4,39,49,0,1552422013,"~/docker-compose.yml"
--'  49  0  ~/docker-compose.yml
-|4,39,49,0,1552422013,"~/docker-compose.yml"
--'  49  0  ~/docker-compose.yml
-|4,39,49,0,1552422013,"~/docker-compose.yml"
--'  51  8  ~/config/nginx/site-confs/default
-|4,39,51,8,1552421896,"~/config/nginx/site-confs/default"
--'  51  8  ~/config/nginx/site-confs/default
-|4,39,51,8,1552421896,"~/config/nginx/site-confs/default"
--'  51  8  ~/config/nginx/site-confs/default
-|4,39,51,8,1552421896,"~/config/nginx/site-confs/default"
--'  51  8  ~/config/nginx/site-confs/default
-|4,39,51,8,1552421896,"~/config/nginx/site-confs/default"
--'  51  8  ~/config/nginx/site-confs/default
-|4,39,51,8,1552421896,"~/config/nginx/site-confs/default"
--'  51  8  ~/config/nginx/site-confs/default
-|4,39,51,8,1552421896,"~/config/nginx/site-confs/default"
--'  51  8  ~/config/nginx/site-confs/default
-|4,39,51,8,1552421896,"~/config/nginx/site-confs/default"
--'  51  8  ~/config/nginx/site-confs/default
-|4,39,51,8,1552421896,"~/config/nginx/site-confs/default"
--'  51  8  ~/config/nginx/site-confs/default
-|4,39,51,8,1552421896,"~/config/nginx/site-confs/default"
--'  51  8  ~/config/nginx/site-confs/default
-|4,39,51,8,1552421896,"~/config/nginx/site-confs/default"
--'  51  8  ~/config/nginx/site-confs/default
-|4,39,51,8,1552421896,"~/config/nginx/site-confs/default"
--'  51  8  ~/config/nginx/site-confs/default
-|4,39,51,8,1552421896,"~/config/nginx/site-confs/default"
--'  51  8  ~/config/nginx/site-confs/default
-|4,39,51,8,1552421896,"~/config/nginx/site-confs/default"
--'  51  8  ~/config/nginx/site-confs/default
-|4,39,51,8,1552421896,"~/config/nginx/site-confs/default"
--'  51  8  ~/config/nginx/site-confs/default
-|4,39,51,8,1552421896,"~/config/nginx/site-confs/default"
--'  51  8  ~/config/nginx/site-confs/default
-|4,39,51,8,1552421896,"~/config/nginx/site-confs/default"
--'  51  8  ~/config/nginx/site-confs/default
-|4,39,51,8,1552421896,"~/config/nginx/site-confs/default"
--'  51  8  ~/config/nginx/site-confs/default
-|4,39,51,8,1552421896,"~/config/nginx/site-confs/default"
--'  51  8  ~/config/nginx/site-confs/default
-|4,39,51,8,1552421896,"~/config/nginx/site-confs/default"
--'  51  8  ~/config/nginx/site-confs/default
-|4,39,51,8,1552421896,"~/config/nginx/site-confs/default"
--'  51  8  ~/config/nginx/site-confs/default
-|4,39,51,8,1552421896,"~/config/nginx/site-confs/default"
--'  51  8  ~/config/nginx/site-confs/default
-|4,39,51,8,1552421896,"~/config/nginx/site-confs/default"
--'  51  8  ~/config/nginx/site-confs/default
-|4,39,51,8,1552421896,"~/config/nginx/site-confs/default"
--'  51  8  ~/config/nginx/site-confs/default
-|4,39,51,8,1552421896,"~/config/nginx/site-confs/default"
--'  51  8  ~/config/nginx/site-confs/default
-|4,39,51,8,1552421896,"~/config/nginx/site-confs/default"
--'  51  8  ~/config/nginx/site-confs/default
-|4,39,51,8,1552421896,"~/config/nginx/site-confs/default"
--'  51  8  ~/config/nginx/site-confs/default
-|4,39,51,8,1552421896,"~/config/nginx/site-confs/default"
--'  51  8  ~/config/nginx/site-confs/default
-|4,39,51,8,1552421896,"~/config/nginx/site-confs/default"
--'  51  8  ~/config/nginx/site-confs/default
-|4,39,51,8,1552421896,"~/config/nginx/site-confs/default"
--'  51  8  ~/config/nginx/site-confs/default
-|4,39,51,8,1552421896,"~/config/nginx/site-confs/default"
--'  51  8  ~/config/nginx/site-confs/default
-|4,39,51,8,1552421896,"~/config/nginx/site-confs/default"
--'  51  8  ~/config/nginx/site-confs/default
-|4,39,51,8,1552421896,"~/config/nginx/site-confs/default"
--'  21  1  ~/config/nginx/nginx.conf
-|4,39,21,1,1552421815,"~/config/nginx/nginx.conf"
--'  21  1  ~/config/nginx/nginx.conf
-|4,39,21,1,1552421815,"~/config/nginx/nginx.conf"
--'  21  1  ~/config/nginx/nginx.conf
-|4,39,21,1,1552421815,"~/config/nginx/nginx.conf"
--'  21  1  ~/config/nginx/nginx.conf
-|4,39,21,1,1552421815,"~/config/nginx/nginx.conf"
--'  21  1  ~/config/nginx/nginx.conf
-|4,39,21,1,1552421815,"~/config/nginx/nginx.conf"
--'  21  1  ~/config/nginx/nginx.conf
-|4,39,21,1,1552421815,"~/config/nginx/nginx.conf"
--'  21  1  ~/config/nginx/nginx.conf
-|4,39,21,1,1552421815,"~/config/nginx/nginx.conf"
--'  21  1  ~/config/nginx/nginx.conf
-|4,39,21,1,1552421815,"~/config/nginx/nginx.conf"
--'  21  1  ~/config/nginx/nginx.conf
-|4,39,21,1,1552421815,"~/config/nginx/nginx.conf"
--'  21  1  ~/config/nginx/nginx.conf
-|4,39,21,1,1552421815,"~/config/nginx/nginx.conf"
--'  21  1  ~/config/nginx/nginx.conf
-|4,39,21,1,1552421815,"~/config/nginx/nginx.conf"
--'  21  1  ~/config/nginx/nginx.conf
-|4,39,21,1,1552421815,"~/config/nginx/nginx.conf"
--'  21  1  ~/config/nginx/nginx.conf
-|4,39,21,1,1552421815,"~/config/nginx/nginx.conf"
--'  21  1  ~/config/nginx/nginx.conf
-|4,39,21,1,1552421815,"~/config/nginx/nginx.conf"
--'  21  1  ~/config/nginx/nginx.conf
-|4,39,21,1,1552421815,"~/config/nginx/nginx.conf"
--'  21  1  ~/config/nginx/nginx.conf
-|4,39,21,1,1552421815,"~/config/nginx/nginx.conf"
--'  21  1  ~/config/nginx/nginx.conf
-|4,39,21,1,1552421815,"~/config/nginx/nginx.conf"
--'  21  1  ~/config/nginx/nginx.conf
-|4,39,21,1,1552421815,"~/config/nginx/nginx.conf"
--'  21  1  ~/config/nginx/nginx.conf
-|4,39,21,1,1552421815,"~/config/nginx/nginx.conf"
--'  21  1  ~/config/nginx/nginx.conf
-|4,39,21,1,1552421815,"~/config/nginx/nginx.conf"
--'  21  1  ~/config/nginx/nginx.conf
-|4,39,21,1,1552421815,"~/config/nginx/nginx.conf"
--'  21  1  ~/config/nginx/nginx.conf
-|4,39,21,1,1552421815,"~/config/nginx/nginx.conf"
--'  21  1  ~/config/nginx/nginx.conf
-|4,39,21,1,1552421815,"~/config/nginx/nginx.conf"
--'  21  1  ~/config/nginx/nginx.conf
-|4,39,21,1,1552421815,"~/config/nginx/nginx.conf"
--'  21  1  ~/config/nginx/nginx.conf
-|4,39,21,1,1552421815,"~/config/nginx/nginx.conf"
--'  21  1  ~/config/nginx/nginx.conf
-|4,39,21,1,1552421815,"~/config/nginx/nginx.conf"
--'  21  1  ~/config/nginx/nginx.conf
-|4,39,21,1,1552421815,"~/config/nginx/nginx.conf"
--'  21  1  ~/config/nginx/nginx.conf
-|4,39,21,1,1552421815,"~/config/nginx/nginx.conf"
--'  21  1  ~/config/nginx/nginx.conf
-|4,39,21,1,1552421815,"~/config/nginx/nginx.conf"
--'  21  1  ~/config/nginx/nginx.conf
-|4,39,21,1,1552421815,"~/config/nginx/nginx.conf"
--'  21  1  ~/config/nginx/nginx.conf
-|4,39,21,1,1552421815,"~/config/nginx/nginx.conf"
--'  21  1  ~/config/nginx/nginx.conf
-|4,39,21,1,1552421815,"~/config/nginx/nginx.conf"
--'  21  1  ~/config/nginx/nginx.conf
-|4,39,21,1,1552421815,"~/config/nginx/nginx.conf"
--'  21  1  ~/config/nginx/nginx.conf
-|4,39,21,1,1552421815,"~/config/nginx/nginx.conf"
+|4,39,80,18,1552431753,"~/docker-compose.yml"
+-'  80  18  ~/docker-compose.yml
+|4,39,80,18,1552431753,"~/docker-compose.yml"
+-'  80  18  ~/docker-compose.yml
+|4,39,80,18,1552431753,"~/docker-compose.yml"
 
 # History of marks within files (newest to oldest):
 
-> ~/default
-	*	1552434179	0
-	"	51	8
-	^	1	0
-	.	1	0
-	+	60	5
-	+	45	0
-	+	46	21
-	+	47	36
-	+	62	4
-	+	62	43
-	+	62	0
-	+	62	21
-	+	63	38
-	+	17	25
-	+	1	0
+> ~/.gitignore
+	*	1552438014	0
+	"	2	10
+	^	2	11
+	.	2	10
+	+	2	10
 
 > ~/docker-compose.yml
-	*	1552432333	0
-	"	98	12
+	*	1552437138	0
+	"	1	0
 	^	80	19
 	.	80	18
 	+	90	29
@@ -451,6 +441,23 @@
 	+	59	11
 	+	69	20
 	+	80	18
+
+> ~/default
+	*	1552434179	0
+	"	51	8
+	^	1	0
+	.	1	0
+	+	60	5
+	+	45	0
+	+	46	21
+	+	47	36
+	+	62	4
+	+	62	43
+	+	62	0
+	+	62	21
+	+	63	38
+	+	17	25
+	+	1	0
 
 > ~/config/nginx/site-confs/default
 	*	1552421894	0
