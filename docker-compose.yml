@@ -8,7 +8,7 @@ networks:
 services:
     nginx:
         image: linuxserver/letsencrypt
-        container_name: web
+        container_name: front
         restart: unless-stopped
         networks:
             digisignnet:
@@ -119,8 +119,8 @@ services:
             - "SignApiUrlApi=https://www.demo.digisign.cloud/digiapi/api/"
             - "SignApiUrlWeb=https://www.demo.digisign.cloud/digiapi/index.html#"
             - "SignUrlCallBack=https://www.demo.digisign.cloud/api/"
-            - "CallBackUrl=https://www.demo.digisign.cloud/index.html#"
-            - "TempFilesUrl=https://www.demo.digisign.cloud/tempfiles"
+            - "CallBackUrl=https://www.demo.digisign.cloud"
+            - "TempFilesUrl=https://www.demo.digisign.cloud/tempfiles/"
             - "SecretKey=rJ7j42EN5JiwOmC2SHe0ofAozB3T86oSbfJOD08xSSUE620AIx0F0RIlnwMfRc6MKHVX6l6ctHCXvu2jCSB0yBmO7OZq680y"
             - "Audience=DemoDigisign"
             - "SmtpHost=mail.digisign.com"

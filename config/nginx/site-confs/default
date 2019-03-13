@@ -28,6 +28,7 @@ server {
 	client_max_body_size 0;
 
     location / {
+        rewrite  ^/$  /index.html  last;
         proxy_pass https://172.18.0.6:4001/;
         # force timeouts if the backend dies
         proxy_next_upstream error timeout invalid_header http_500 http_502 http_503 http_504;
