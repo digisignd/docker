@@ -23,7 +23,7 @@ services:
             - SUBDOMAINS=www,
             - VALIDATION=http
             - DNSPLUGIN=cloudflare #optional
-            - EMAIL=<osanchez@sitecpro.com> #optional
+            - EMAIL=<operations@digisign.cloud> #optional
             - DHLEVEL=2048 #optional
             - ONLY_SUBDOMAINS=false #optional
             - STAGING=false #optional
@@ -35,7 +35,7 @@ services:
         restart: unless-stopped
 
     db:
-        image: postgres:latest
+        image: postgres:11.2
         container_name: db
         restart: unless-stopped
         networks:
@@ -47,11 +47,12 @@ services:
             - "POSTGRES_PASSWORD=postgres"
         shm_size: 256MB
         volumes:
-            - /var/opt/digisign/digiserver/db:/var/lib/postgresql/data
+            - /home/digisign/var/digiserver/db:/var/lib/postgresql/data
 
     digiutil:
         image: digisign/digiutil:1.0
         container_name: digiutil
+        restart: unless-stopped
         networks:
             digisignnet:
                ipv4_address: 172.18.0.9
@@ -84,11 +85,12 @@ services:
             - "CertPass=WYsz0vCPJgZ/XxJu8y4+nUg7FmJmzQXNRlyjCvdaML8="
             - "Dominios=https://www.demo.digisign.cloud"
         volumes:
-            - /var/opt/digisign/api/db/:/app/db
-            - /opt/digisign/cert/:/app/cert
-            - /var/opt/digisign/api/files/:/app/files
-            - /var/opt/digisign/api/keyring/:/app/keyring
-            - /var/opt/digisign/api/tempfiles/:/app/tempfiles
+
+            - /home/digisign/opt/cert/:/app/cert
+            - /home/digisign/var/api/db/:/app/db
+            - /home/digisign/var/api/files/:/app/files
+            - /home/digisign/var/api/keyring/:/app/keyring
+            - /home/digisign/var/api/tempfiles/:/app/tempfiles
 
     digiserver:
         image: digisign/digiserver:1.0
@@ -121,19 +123,18 @@ services:
             - "TempFilesUrl=https://www.demo.digisign.cloud/tempfiles"
             - "SecretKey=rJ7j42EN5JiwOmC2SHe0ofAozB3T86oSbfJOD08xSSUE620AIx0F0RIlnwMfRc6MKHVX6l6ctHCXvu2jCSB0yBmO7OZq680y"
             - "Audience=DemoDigisign"
-            - "SmtpHost=mail.sitecpro.com"
+            - "SmtpHost=mail.digisign.com"
             - "SmtpPort=465"
             - "SmtpUserName=DigiSign.Cloud"
-            - "SmtpUser=info@sitecpro.com"
-            - "SmtpPassword=3MSJY1/kB5Vq0z2s1GSfz+xRPFf6dM+cRlyjCvdaML8="
+            - "SmtpUser=notifications@digisign.cloud"
+            - "SmtpPassword=GpP4CQHGNVotgINc6cqO1ISb8h4YwAK/RlyjCvdaML8="
             - "ConfirmEmailTemplate=ConfirmEmail.html"
             - "RecoverPasswordTemplate=RecoverPassword.html"
             - "DocumentToSignTemplate=DocumentToSign.html"
             - "EmailLogo=https://www.app.digisign.cloud/digisigncloud_small.png"
         volumes:
-            - /opt/digisign/cert/:/app/cert
-            - /var/opt/digisign/digiserver/files/:/app/files
-            - /var/opt/digisign/api/files/:/app/tosign
-            - /var/opt/digisign/digiserver/tempfiles/:/app/tempfiles
-            - /opt/digisign/digiserver/emailtemplates/:/app/emailtemplates
-
+            - /home/digisign/opt/cert/:/app/cert
+            - /home/digisign/opt/digiserver/emailtemplates/:/app/emailtemplates
+            - /home/digisign/var/digiserver/files/:/app/files
+            - /home/digisign/var/api/files/:/app/tosign
+            - /home/digisign/var/digiserver/tempfiles/:/app/tempfiles
