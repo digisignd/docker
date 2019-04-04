@@ -131,7 +131,7 @@ services:
             - "ConfirmEmailTemplate=ConfirmEmail.html"
             - "RecoverPasswordTemplate=RecoverPassword.html"
             - "DocumentToSignTemplate=DocumentToSign.html"
-            - "EmailLogo=https://www.app.digisign.cloud/digisigncloud_small.png"
+            - "EmailLogo=https://www.app.digisign.cloud/statics/DigiSignCloud2.png"
         volumes:
             - /home/digisign/opt/cert/:/app/cert
             - /home/digisign/opt/digiserver/emailtemplates/:/app/emailtemplates
