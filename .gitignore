@@ -1,4 +1,13 @@
 .*
 *.log*
 *.db
+*.pdf
+
+config/etc/letsencrypt/archive
+var/api/files
+var/api/tempfiles
+var/digiserver
+var/oneshotai/files
+var/oneshotoptimizer/tmp
+
 !.gitignore
