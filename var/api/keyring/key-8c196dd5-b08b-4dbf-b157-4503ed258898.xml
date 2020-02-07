@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<key id="8c196dd5-b08b-4dbf-b157-4503ed258898" version="1">
+  <creationDate>2019-03-09T01:56:30.2069343Z</creationDate>
+  <activationDate>2019-03-09T01:56:30.1531182Z</activationDate>
+  <expirationDate>2019-06-07T01:56:30.1531182Z</expirationDate>
+  <descriptor deserializerType="Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60">
+    <descriptor>
+      <encryption algorithm="AES_256_CBC" />
+      <validation algorithm="HMACSHA256" />
+      <encryptedSecret decryptorType="Microsoft.AspNetCore.DataProtection.AzureKeyVault.AzureKeyVaultXmlDecryptor, Microsoft.AspNetCore.DataProtection.AzureKeyVault, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" xmlns="http://schemas.asp.net/2015/03/dataProtection">
+        <encryptedKey xmlns="">
+          <!-- This key is encrypted with Azure KeyVault. -->
+          <kid>https://digisignkeyvault.vault.azure.net/keys/DigiSignAzureKey/4df3a8451b5046ae85b3b274dc68f1c8</kid>
+          <key>h3lwl1fFvDZC3VST5yVFBrRBhLwpzXb45jAdJirstikeUyK0mXgc+HDT4Ze7fb7vdPsPd5TiRwN5ONGrixBPTNxxrYDGQxaH9eT7GxGhYiD3Y5Zs6m9GX5VMKhhczOI9HT+aECwr2gHi0M1H3D75ON+vbwWfsNU3iZS7mG9AuwZ6qX+Z6VeQDLtWvFRHAq8puJKNCIavR5MrdRPZFGwDXocchtc5i4rrCAGd7G7pcwWJFng2yychLpPofLsR8cX7Vg2tGNLON+QNPC7t949xAs8rWOHLDgSKy8+PUIlA+VXY5Q8113h4KDxAIg8V1PGxhMT9vAR2fUkGzxB9IGyv7Q==</key>
+          <iv>/cHF1QXe/u0eBnN7semqCA==</iv>
+          <value>QHuPSMX90KeRHIrhfy2FLJMPzi73uegfubpc6tiks+wmNUEkqH7UYOhIVKOdY1mCoEOpkNdcXE3BVmJUUB3IbRGVcZGcjPqODYJyKS5EkUAUUQMkpQ8nu07r9pkW8KUMydLv/8Sun0eG1L1jj6l+f2okGOobR3YLKoiAgaYhnF04UqFaWs5PG5aQRd/WDdtka4zsE5DzWavhrzpVWtF9x9CUGWqYWC9EgO9chYsFgd1cRcGERC+P0Rs5Su7cLmgQ8Rz28YWiE4Ga62HY78H0KDv5xZj8rkYitmNIQ1EJKXfbAsU7184TaZsqiMRKjlTczBeD3kRXHguExStYjhgQEZw598fIj1l3cqqp3taSpVwo/phEfQLwsKHFyQthRa6/Qzd5ne8GY0Sy9IXcIFYquNu4/akWwZ0oPPHALor0Hsg=</value>
+        </encryptedKey>
+      </encryptedSecret>
+    </descriptor>
+  </descriptor>
+</key>

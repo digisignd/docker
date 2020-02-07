@@ -8,7 +8,7 @@ networks:
 services:
     nginx:
         image: linuxserver/letsencrypt
-        container_name: front
+        container_name: nginx
         restart: unless-stopped
         networks:
             digisignnet:
@@ -59,7 +59,7 @@ services:
         depends_on:
            - nginx
         ports:
-           - "6001:443"
+           - "4601:443"
 
     digiapi:
         image: digisign/digiapi:1.0
@@ -138,3 +138,50 @@ services:
             - /home/digisign/var/digiserver/files/:/app/files
             - /home/digisign/var/api/files/:/app/tosign
             - /home/digisign/var/digiserver/tempfiles/:/app/tempfiles
+
+    oneshotoptimizer:
+        image: digisign/oneshotoptimizer:1.0
+        container_name: oneshotoptimizer
+        restart: unless-stopped
+        networks:
+            digisignnet:
+               ipv4_address: 172.18.0.10
+        depends_on:
+           - nginx
+        ports:
+            - "4602:443"
+        volumes:
+            - /home/digisign/config/oneshotoptimizer/custom.ini:/opt/bit4id/oneshot_optimizer/etc/custom.ini
+            - /home/digisign/var/oneshotoptimizer/tmp/:/opt/bit4id/oneshot_optimizer/tmp/
+            - /home/digisign/var/oneshotoptimizer/tokens/tokens.json:/opt/bit4id/oneshot_optimizer/etc/tokens.json
+            - /home/digisign/var/oneshotoptimizer/log/:/var/log/optimizer/
+            - /home/digisign/var/oneshotoptimizer/log/:/var/log/nginx/
+
+    oneshotapi:
+        image: digisign/oneshotapi:1.0
+        container_name: oneshotapi
+        restart: unless-stopped
+        networks:
+            digisignnet:
+                 ipv4_address: 172.18.0.7
+        depends_on:
+           - nginx
+           - db
+           - oneshotoptimizer
+        ports: 
+           - "4101:4001"
+        environment:
+            - "ASPNETCORE_BASEPATH=/oneshotapi"
+            - "OneShotEndpoint=https://www.demo.digisign.cloud/optimizer/api/v1/"
+            - "RaUser=7003213"
+            - "RaPass=xokjcj7GDqUt4P8RVbDTkEZcowr3WjC/"
+            - "RaPin=naBT5ufkKBU0n5u+SCqqO1hksBtLG8j4"
+            - "DBServer=172.18.0.3"
+            - "DBName=oneshot"
+            - "DBUser=postgres"
+            - "DBPass=shwt2c55h2f/QvefT8Cj90Zcowr3WjC/"
+            - "CertPass=WYsz0vCPJgZ/XxJu8y4+nUg7FmJmzQXNRlyjCvdaML8="
+            - "PathCert=/app/cert"
+        volumes:
+            - /home/digisign/opt/cert/:/app/cert
+            - /home/digisign/var/oneshotapi/files:/app/wwwroot/files
