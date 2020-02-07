@@ -7,18 +7,18 @@
 
 config/etc/letsencrypt/csr/*.pem
 config/etc/letsencrypt/keys/*.pem
+config/etc/letsencrypt/live/*
 !config/etc/letsencrypt/live/README
-config/etc/letsencrypt/live
+config/etc/letsencrypt/renewal/*
 !config/etc/letsencrypt/renewal/readme.txt
-config/etc/letsencrypt/renewal
 
 config/etc/letsencrypt/archive
 var/api/files/digisignapp/*.json
 var/api/keyring/*.xml
+var/digiserver/db/*
 !var/digiserver/db/readme.txt
-var/digiserver/db
 var/oneshotoptimizer/tokens/tokens.json
+var/oneshotoptimizer/tmp/*
 !var/oneshotoptimizer/tmp/readme.txt
-var/oneshotoptimizer/tmp
 
 !.gitignore
