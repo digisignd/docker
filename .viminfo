@@ -15,7 +15,7 @@
 
 # Command Line History (newest to oldest):
 :x
-|2,0,1581099290,,"x"
+|2,0,1581099390,,"x"
 :x!
 |2,0,1581097672,,"x!"
 :X!
@@ -134,38 +134,52 @@
 |3,0,36,0,1,0,1581096965,"d"
 
 # File marks:
-'0  15  0  ~/.gitignore
-|4,48,15,0,1581099290,"~/.gitignore"
-'1  1  0  ~/.gitignore
-|4,49,1,0,1581098879,"~/.gitignore"
-'2  1  0  ~/.gitignore
-|4,50,1,0,1581098879,"~/.gitignore"
+'0  2  0  ~/.gitignore
+|4,48,2,0,1581099390,"~/.gitignore"
+'1  16  0  ~/.gitignore
+|4,49,16,0,1581099290,"~/.gitignore"
+'2  15  0  ~/.gitignore
+|4,50,15,0,1581099290,"~/.gitignore"
 '3  1  0  ~/.gitignore
-|4,51,1,0,1581098740,"~/.gitignore"
+|4,51,1,0,1581098879,"~/.gitignore"
 '4  1  0  ~/.gitignore
-|4,52,1,0,1581098740,"~/.gitignore"
-'5  8  0  ~/.gitignore
-|4,53,8,0,1581098740,"~/.gitignore"
-'6  9  0  ~/.gitignore
-|4,54,9,0,1581098740,"~/.gitignore"
-'7  1  20  ~/.gitignore
-|4,55,1,20,1581098306,"~/.gitignore"
-'8  1  20  ~/.gitignore
-|4,56,1,20,1581098306,"~/.gitignore"
-'9  1  20  ~/.gitignore
-|4,57,1,20,1581098306,"~/.gitignore"
+|4,52,1,0,1581098879,"~/.gitignore"
+'5  1  0  ~/.gitignore
+|4,53,1,0,1581098879,"~/.gitignore"
+'6  1  0  ~/.gitignore
+|4,54,1,0,1581098879,"~/.gitignore"
+'7  1  0  ~/.gitignore
+|4,55,1,0,1581098740,"~/.gitignore"
+'8  1  0  ~/.gitignore
+|4,56,1,0,1581098740,"~/.gitignore"
+'9  9  0  ~/.gitignore
+|4,57,9,0,1581098740,"~/.gitignore"
 
 # Jumplist (newest first):
+-'  2  0  ~/.gitignore
+|4,39,2,0,1581099390,"~/.gitignore"
+-'  16  0  ~/.gitignore
+|4,39,16,0,1581099383,"~/.gitignore"
 -'  15  0  ~/.gitignore
 |4,39,15,0,1581099290,"~/.gitignore"
 -'  1  0  ~/.gitignore
 |4,39,1,0,1581099242,"~/.gitignore"
 -'  1  0  ~/.gitignore
+|4,39,1,0,1581099242,"~/.gitignore"
+-'  1  0  ~/.gitignore
 |4,39,1,0,1581098879,"~/.gitignore"
+-'  9  0  ~/.gitignore
+|4,39,9,0,1581098854,"~/.gitignore"
 -'  8  0  ~/.gitignore
 |4,39,8,0,1581098854,"~/.gitignore"
+-'  10  0  ~/.gitignore
+|4,39,10,0,1581098740,"~/.gitignore"
 -'  9  0  ~/.gitignore
 |4,39,9,0,1581098740,"~/.gitignore"
+-'  7  20  ~/.gitignore
+|4,39,7,20,1581098707,"~/.gitignore"
+-'  8  20  ~/.gitignore
+|4,39,8,20,1581098707,"~/.gitignore"
 -'  6  20  ~/.gitignore
 |4,39,6,20,1581098707,"~/.gitignore"
 -'  7  20  ~/.gitignore
@@ -174,6 +188,14 @@
 |4,39,7,20,1581098306,"~/.gitignore"
 -'  8  20  ~/.gitignore
 |4,39,8,20,1581098306,"~/.gitignore"
+-'  3  38  ~/.gitignore
+|4,39,3,38,1581098281,"~/.gitignore"
+-'  4  38  ~/.gitignore
+|4,39,4,38,1581098281,"~/.gitignore"
+-'  12  38  ~/.gitignore
+|4,39,12,38,1581098281,"~/.gitignore"
+-'  13  38  ~/.gitignore
+|4,39,13,38,1581098281,"~/.gitignore"
 -'  2  38  ~/.gitignore
 |4,39,2,38,1581098281,"~/.gitignore"
 -'  3  38  ~/.gitignore
@@ -216,6 +238,38 @@
 |4,39,1,3,1581098091,"~/config/log/fail2ban/readme.txt"
 -'  1  3  ~/config/log/fail2ban/readme.txt
 |4,39,1,3,1581098091,"~/config/log/fail2ban/readme.txt"
+-'  1  3  ~/config/log/fail2ban/readme.txt
+|4,39,1,3,1581098091,"~/config/log/fail2ban/readme.txt"
+-'  1  3  ~/config/log/fail2ban/readme.txt
+|4,39,1,3,1581098091,"~/config/log/fail2ban/readme.txt"
+-'  1  3  ~/config/log/fail2ban/readme.txt
+|4,39,1,3,1581098091,"~/config/log/fail2ban/readme.txt"
+-'  1  3  ~/config/log/fail2ban/readme.txt
+|4,39,1,3,1581098091,"~/config/log/fail2ban/readme.txt"
+-'  1  3  ~/config/log/fail2ban/readme.txt
+|4,39,1,3,1581098091,"~/config/log/fail2ban/readme.txt"
+-'  1  3  ~/config/log/fail2ban/readme.txt
+|4,39,1,3,1581098091,"~/config/log/fail2ban/readme.txt"
+-'  1  3  ~/config/log/fail2ban/readme.txt
+|4,39,1,3,1581098091,"~/config/log/fail2ban/readme.txt"
+-'  1  3  ~/config/log/fail2ban/readme.txt
+|4,39,1,3,1581098091,"~/config/log/fail2ban/readme.txt"
+-'  1  3  ~/config/log/fail2ban/readme.txt
+|4,39,1,3,1581098091,"~/config/log/fail2ban/readme.txt"
+-'  1  3  ~/config/log/fail2ban/readme.txt
+|4,39,1,3,1581098091,"~/config/log/fail2ban/readme.txt"
+-'  1  3  ~/config/log/fail2ban/readme.txt
+|4,39,1,3,1581098091,"~/config/log/fail2ban/readme.txt"
+-'  1  3  ~/config/log/fail2ban/readme.txt
+|4,39,1,3,1581098091,"~/config/log/fail2ban/readme.txt"
+-'  1  3  ~/config/log/fail2ban/readme.txt
+|4,39,1,3,1581098091,"~/config/log/fail2ban/readme.txt"
+-'  1  3  ~/config/log/fail2ban/readme.txt
+|4,39,1,3,1581098091,"~/config/log/fail2ban/readme.txt"
+-'  1  3  ~/config/log/fail2ban/readme.txt
+|4,39,1,3,1581098091,"~/config/log/fail2ban/readme.txt"
+-'  1  3  ~/config/log/fail2ban/readme.txt
+|4,39,1,3,1581098091,"~/config/log/fail2ban/readme.txt"
 -'  1  43  ~/opt/cert/readme.txt
 |4,39,1,43,1581098032,"~/opt/cert/readme.txt"
 -'  1  43  ~/opt/cert/readme.txt
@@ -280,92 +334,39 @@
 |4,39,1,43,1581098032,"~/opt/cert/readme.txt"
 -'  1  43  ~/opt/cert/readme.txt
 |4,39,1,43,1581098032,"~/opt/cert/readme.txt"
--'  1  64  ~/var/api/tempfiles/readme.txt
-|4,39,1,64,1581097977,"~/var/api/tempfiles/readme.txt"
--'  1  64  ~/var/api/tempfiles/readme.txt
-|4,39,1,64,1581097977,"~/var/api/tempfiles/readme.txt"
--'  1  64  ~/var/api/tempfiles/readme.txt
-|4,39,1,64,1581097977,"~/var/api/tempfiles/readme.txt"
--'  1  64  ~/var/api/tempfiles/readme.txt
-|4,39,1,64,1581097977,"~/var/api/tempfiles/readme.txt"
--'  1  64  ~/var/api/tempfiles/readme.txt
-|4,39,1,64,1581097977,"~/var/api/tempfiles/readme.txt"
--'  1  64  ~/var/api/tempfiles/readme.txt
-|4,39,1,64,1581097977,"~/var/api/tempfiles/readme.txt"
--'  1  64  ~/var/api/tempfiles/readme.txt
-|4,39,1,64,1581097977,"~/var/api/tempfiles/readme.txt"
--'  1  64  ~/var/api/tempfiles/readme.txt
-|4,39,1,64,1581097977,"~/var/api/tempfiles/readme.txt"
--'  1  64  ~/var/api/tempfiles/readme.txt
-|4,39,1,64,1581097977,"~/var/api/tempfiles/readme.txt"
--'  1  64  ~/var/api/tempfiles/readme.txt
-|4,39,1,64,1581097977,"~/var/api/tempfiles/readme.txt"
--'  1  64  ~/var/api/tempfiles/readme.txt
-|4,39,1,64,1581097977,"~/var/api/tempfiles/readme.txt"
--'  1  64  ~/var/api/tempfiles/readme.txt
-|4,39,1,64,1581097977,"~/var/api/tempfiles/readme.txt"
--'  1  64  ~/var/api/tempfiles/readme.txt
-|4,39,1,64,1581097977,"~/var/api/tempfiles/readme.txt"
--'  1  64  ~/var/api/tempfiles/readme.txt
-|4,39,1,64,1581097977,"~/var/api/tempfiles/readme.txt"
--'  1  64  ~/var/api/tempfiles/readme.txt
-|4,39,1,64,1581097977,"~/var/api/tempfiles/readme.txt"
--'  1  64  ~/var/api/tempfiles/readme.txt
-|4,39,1,64,1581097977,"~/var/api/tempfiles/readme.txt"
--'  1  64  ~/var/api/tempfiles/readme.txt
-|4,39,1,64,1581097977,"~/var/api/tempfiles/readme.txt"
--'  1  64  ~/var/api/tempfiles/readme.txt
-|4,39,1,64,1581097977,"~/var/api/tempfiles/readme.txt"
--'  1  64  ~/var/api/tempfiles/readme.txt
-|4,39,1,64,1581097977,"~/var/api/tempfiles/readme.txt"
--'  1  64  ~/var/api/tempfiles/readme.txt
-|4,39,1,64,1581097977,"~/var/api/tempfiles/readme.txt"
--'  1  64  ~/var/api/tempfiles/readme.txt
-|4,39,1,64,1581097977,"~/var/api/tempfiles/readme.txt"
--'  1  64  ~/var/api/tempfiles/readme.txt
-|4,39,1,64,1581097977,"~/var/api/tempfiles/readme.txt"
--'  1  64  ~/var/api/tempfiles/readme.txt
-|4,39,1,64,1581097977,"~/var/api/tempfiles/readme.txt"
--'  1  64  ~/var/api/tempfiles/readme.txt
-|4,39,1,64,1581097977,"~/var/api/tempfiles/readme.txt"
--'  1  64  ~/var/api/tempfiles/readme.txt
-|4,39,1,64,1581097977,"~/var/api/tempfiles/readme.txt"
--'  1  64  ~/var/api/tempfiles/readme.txt
-|4,39,1,64,1581097977,"~/var/api/tempfiles/readme.txt"
--'  1  64  ~/var/api/tempfiles/readme.txt
-|4,39,1,64,1581097977,"~/var/api/tempfiles/readme.txt"
--'  1  64  ~/var/api/tempfiles/readme.txt
-|4,39,1,64,1581097977,"~/var/api/tempfiles/readme.txt"
--'  1  64  ~/var/api/tempfiles/readme.txt
-|4,39,1,64,1581097977,"~/var/api/tempfiles/readme.txt"
--'  1  64  ~/var/api/tempfiles/readme.txt
-|4,39,1,64,1581097977,"~/var/api/tempfiles/readme.txt"
--'  1  64  ~/var/api/tempfiles/readme.txt
-|4,39,1,64,1581097977,"~/var/api/tempfiles/readme.txt"
--'  1  64  ~/var/api/tempfiles/readme.txt
-|4,39,1,64,1581097977,"~/var/api/tempfiles/readme.txt"
--'  1  64  ~/var/api/tempfiles/readme.txt
-|4,39,1,64,1581097977,"~/var/api/tempfiles/readme.txt"
--'  1  64  ~/var/api/tempfiles/readme.txt
-|4,39,1,64,1581097977,"~/var/api/tempfiles/readme.txt"
--'  1  64  ~/var/api/tempfiles/readme.txt
-|4,39,1,64,1581097977,"~/var/api/tempfiles/readme.txt"
--'  1  64  ~/var/api/tempfiles/readme.txt
-|4,39,1,64,1581097977,"~/var/api/tempfiles/readme.txt"
--'  1  64  ~/var/api/tempfiles/readme.txt
-|4,39,1,64,1581097977,"~/var/api/tempfiles/readme.txt"
--'  1  64  ~/var/api/tempfiles/readme.txt
-|4,39,1,64,1581097977,"~/var/api/tempfiles/readme.txt"
+-'  1  43  ~/opt/cert/readme.txt
+|4,39,1,43,1581098032,"~/opt/cert/readme.txt"
+-'  1  43  ~/opt/cert/readme.txt
+|4,39,1,43,1581098032,"~/opt/cert/readme.txt"
+-'  1  43  ~/opt/cert/readme.txt
+|4,39,1,43,1581098032,"~/opt/cert/readme.txt"
+-'  1  43  ~/opt/cert/readme.txt
+|4,39,1,43,1581098032,"~/opt/cert/readme.txt"
+-'  1  43  ~/opt/cert/readme.txt
+|4,39,1,43,1581098032,"~/opt/cert/readme.txt"
+-'  1  43  ~/opt/cert/readme.txt
+|4,39,1,43,1581098032,"~/opt/cert/readme.txt"
+-'  1  43  ~/opt/cert/readme.txt
+|4,39,1,43,1581098032,"~/opt/cert/readme.txt"
+-'  1  43  ~/opt/cert/readme.txt
+|4,39,1,43,1581098032,"~/opt/cert/readme.txt"
+-'  1  43  ~/opt/cert/readme.txt
+|4,39,1,43,1581098032,"~/opt/cert/readme.txt"
+-'  1  43  ~/opt/cert/readme.txt
+|4,39,1,43,1581098032,"~/opt/cert/readme.txt"
+-'  1  43  ~/opt/cert/readme.txt
+|4,39,1,43,1581098032,"~/opt/cert/readme.txt"
 
 # History of marks within files (newest to oldest):
 
 > ~/.gitignore
-	*	1581099289	0
-	"	15	0
-	.	16	0
-	+	3	10
+	*	1581099389	0
+	"	2	0
+	^	2	0
+	.	1	2
+	+	4	10
 	+	1	5
-	+	2	4
+	+	3	4
 	+	1	6
 	+	1	4
 	+	1	0
@@ -378,7 +379,8 @@
 	+	1	20
 	+	1	0
 	+	1	6
-	+	16	0
+	+	17	0
+	+	1	2
 
 > ~/config/log/fail2ban/readme.txt
 	*	1581098090	0
