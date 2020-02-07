@@ -8,6 +8,7 @@ var/api/files
 var/api/tempfiles
 var/digiserver
 var/oneshotapi/files
+var/oneshotoptimizer/tokens/tokens.json
 var/oneshotoptimizer/tmp
 
 !.gitignore
