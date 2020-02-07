@@ -1,0 +1,15 @@
+.*
+*.log*
+*.db
+*.pdf
+
+config/etc/letsencrypt/archive
+var/api/files
+var/api/keyring/*.xml
+var/api/tempfiles
+var/digiserver
+var/oneshotapi/files
+var/oneshotoptimizer/tokens/tokens.json
+var/oneshotoptimizer/tmp
+
+!.gitignore
