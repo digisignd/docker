@@ -18,33 +18,17 @@ services:
         ports:
             - 7001:8081
     nginx:
-        image: linuxserver/letsencrypt
+        image: bitnami/nginx:latest
         container_name: front
         restart: unless-stopped
         networks:
             digisignnet:
                  ipv4_address: 172.18.0.2
-        cap_add:
-            - NET_ADMIN
-        environment:
-            - PUID=1000
-            - PGID=1000
-            - TZ=Europe/London
-            - URL=app.digisign.cloud
-            - SUBDOMAINS=www,
-            - VALIDATION=http
-            - DNSPLUGIN=cloudflare #optional
-            - EMAIL=<operations@digisign.cloud> #optional
-            - DHLEVEL=2048 #optional
-            - ONLY_SUBDOMAINS=false #optional
-            - STAGING=false #optional
         volumes:
             - /etc/digisign/config:/config
         ports:
             - 443:443
-            - 80:80 #optional
-        restart: unless-stopped
-
+            - 80:80
     db:
         image: postgres:11.2
         container_name: db
