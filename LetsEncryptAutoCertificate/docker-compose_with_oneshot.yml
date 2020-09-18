@@ -110,6 +110,7 @@ services:
             - "PathFiles=/app/files"
             - "PathApiFiles=/app/tosign"
             - "PathTempFiles=/app/tempfiles"
+            - "NombrePortal=Digisign.Cloud"
             - "PathEmailTemplates=/app/emailtemplates"
             - "DBServer=172.18.0.3"
             - "DBName=digisign"
