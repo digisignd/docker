@@ -60,6 +60,8 @@ services:
            - nginx
         ports:
            - "4601:443"
+        volumes:
+           - /home/digisign/opt/digiutil/img/:/opt/bit4id/de/etc/img
 
     digiapi:
         image: digisign/digiapi:1.0
