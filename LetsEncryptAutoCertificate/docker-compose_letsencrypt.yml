@@ -97,7 +97,7 @@ services:
             - "CertPass=WYsz0vCPJgZ/XxJu8y4+nUg7FmJmzQXNRlyjCvdaML8="
             - "Dominios=https://www.app.digisign.cloud"
         volumes:
-
+            - /opt/digisign/digiapi/statics/:/app/wwwroot/statics
             - /opt/digisign/cert/:/app/cert
             - /var/digisign/api/db/:/app/db
             - /var/digisign/api/files/:/app/files
@@ -118,6 +118,7 @@ services:
         ports:
             - "4001:4001"
         environment:
+            - "URLSSO="
             - "PathCert=/app/cert"
             - "PathFiles=/app/files"
             - "PathApiFiles=/app/tosign"
@@ -147,6 +148,7 @@ services:
             - "EmailLogo=https://www.app.digisign.cloud/statics/DigiSignCloud2.png"
         volumes:
             - /opt/digisign/cert/:/app/cert
+            - /opt/digisign/digiserver/statics/:/app/wwwroot/statics
             - /opt/digisign/digiserver/emailtemplates/:/app/emailtemplates
             - /var/digisign/digiserver/files/:/app/files
             - /var/digisign/api/files/:/app/tosign
