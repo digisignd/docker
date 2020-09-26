@@ -57,6 +57,8 @@ services:
            - front 
         ports:
            - "6001:443"
+        volumes:
+           - /work/digisign/opt/digiutil/img/:/opt/bit4id/de/etc/img
 
     digiapi:
         image: digisign/digiapi:1.0
