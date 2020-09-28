@@ -1,0 +1,12 @@
+{
+  "sites": [
+    {
+      "name": "Enviar comentarios",
+      "url": "https://www.digisign.cloud/page/contactus"
+    },
+    {
+      "name": "Ayuda",
+      "url": "https://www.digisign.cloud/page/help"
+    }
+  ]
+}
