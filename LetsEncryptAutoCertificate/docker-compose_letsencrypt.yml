@@ -94,6 +94,7 @@ services:
             - "PathKeyRing=/app/keyring"
             - "PathTempFiles=/app/tempfiles"
             - "EnvType=prod"
+            - "KeyRingUseCertificate=0"
             - "Url4IdentitySignatureImage=https://www.app.digisign.cloud/statics/DigiSignCloud.png"
             - "SignApiUrlApi=https://www.app.digisign.cloud/digiapi/api/"
             - "TempFilesUrl=https://www.app.digisign.cloud/digiapi/tempfiles"
