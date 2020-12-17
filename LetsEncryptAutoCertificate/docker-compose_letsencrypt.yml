@@ -15,6 +15,7 @@ services:
                  ipv4_address: 172.18.0.10
         volumes:
             - /etc/digisign/config/fouridserver/licenses:/opt/bit4id/connector/etc/licenses
+            - /etc/digisign/config/fouridserver/config:/opt/bit4id/connector/etc/connector/digisign
         ports:
             - 7001:8081
     nginx:
@@ -93,6 +94,7 @@ services:
             - "PathKeyRing=/app/keyring"
             - "PathTempFiles=/app/tempfiles"
             - "EnvType=prod"
+            - "Url4IdentitySignatureImage=https://www.app.digisign.cloud/statics/DigiSignCloud.png"
             - "SignApiUrlApi=https://www.app.digisign.cloud/digiapi/api/"
             - "TempFilesUrl=https://www.app.digisign.cloud/digiapi/tempfiles"
             - "UtilUrl=https://digiutil/api"
