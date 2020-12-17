@@ -81,6 +81,7 @@ services:
             - "PathTempFiles=/app/tempfiles"
             - "EnvType=prod"
             - "KeyRingUseCertificate=1"
+            - "Url4IdentitySignatureImage=https://www.app.digisign.cloud/statics/DigiSignCloud.png"
             - "SignApiUrlApi=https://www.app.digisign.cloud/digiapi/api/"
             - "TempFilesUrl=https://www.app.digisign.cloud/digiapi/tempfiles"
             - "UtilUrl=https://digiutil/api"
