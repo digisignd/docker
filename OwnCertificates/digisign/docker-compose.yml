@@ -15,6 +15,7 @@ services:
                  ipv4_address: 172.18.0.10
         volumes:
             - /work/digisign/config/fouridserver/licenses:/opt/bit4id/connector/etc/licenses
+            - /work/digisign/config/fouridserver/config:/opt/bit4id/connector/etc/connector/digisign
         ports:
             - 7001:8081
     front:
